@@ -1,11 +1,17 @@
 import React from 'react';
 import { CssBaseline } from '@mui/material';
+import { Navbar } from 'components';
 
 function App() {
   return (
     <>
       <CssBaseline />
-      <div className='App'>Heels</div>;
+      <main>
+        <header>
+          <Navbar />
+        </header>
+      </main>
+      ;
     </>
   );
 }
